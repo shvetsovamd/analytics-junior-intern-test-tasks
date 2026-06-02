@@ -1,4 +1,4 @@
-# Test_task_data_analyst_intern
+# VK - data analyst intern, spring 2026
 Тестовое задание на позицию стажера аналитика данных
 
 Файлы:
