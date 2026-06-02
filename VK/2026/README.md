@@ -2,5 +2,5 @@
 Тестовое задание на позицию стажера аналитика данных
 
 Файлы:
-1. testovoe_zadanie_stazher - ноутбук с тестовым заданием
-2. testovoe_zadanie_stazher_otchet_Shvetsova - ноутбук с моим решением
+1. task_data_analyst_intern_-_spring_2026.ipynb - ноутбук с тестовым заданием
+2. answer_data_analyst_intern_-_spring_2026.ipynb - ноутбук с моим решением
