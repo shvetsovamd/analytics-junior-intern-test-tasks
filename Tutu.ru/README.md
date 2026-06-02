@@ -1,4 +1,4 @@
-# Test_task_tutu.ru_Shvetsova
+# Tutu.ru - junior product/data analyst, autumn 2025
 Выполнение тестового задания в компанию tutu.ru на позицию младшего аналитика
 
 Легенда:
