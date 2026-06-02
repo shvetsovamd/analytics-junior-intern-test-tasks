@@ -1,4 +1,4 @@
-# Tbank_summer_2026_product_analyst_intern_Shvetsova
+# Tbank - product analyst intern, summer 2026
 Тестовое задание на позицию стажера продуктового аналитика
 
 Текст задания:
