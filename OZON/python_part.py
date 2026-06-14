@@ -6,10 +6,7 @@ def merge(lst):
         return
     new_lst = []
     for i in range(len(lst) // 2 + len(lst) % 2):
-        if i == len(lst) - i - 1:
-            new_lst.append(lst[i])
-        else:
-            new_lst.append(lst[i] - lst[-i - 1])
+        new_lst.append(lst[i] - lst[-i - 1])
     return merge(new_lst)
 
 
