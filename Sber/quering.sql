@@ -9,12 +9,9 @@ select days.abonent, region_id, days.dttm from t right join days using(dttm)
 -- Задача 2: помесячный расчета динамики числа публикаций
 
 with posts_count as(
-	select
-		date_format(created_at, '%Y-%m-01') dt, count(*) `count`
-	-- over (partition by month(dt)) count
+	select date_format(created_at, '%Y-%m-01') dt, count(*) `count`
 	from posts
 	group by date_format(created_at, '%Y-%m-01')
-	
 )
 select dt, `count`,
 	case
@@ -24,3 +21,4 @@ select dt, `count`,
 	end
 	as percent
 from posts_count
+
