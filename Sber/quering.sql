@@ -15,7 +15,7 @@ with posts_count as(
 )
 select dt, `count`,
 	case
-		when round((`count` / lag(`count`) over (order by dt) - 1) * 100, 1) is null
+		when `count` / lag(`count`) over (order by dt) is null
 		then null
 		else concat(cast(round((`count` / lag(`count`) over (order by dt) - 1) * 100, 1) as char), '%')
 	end
