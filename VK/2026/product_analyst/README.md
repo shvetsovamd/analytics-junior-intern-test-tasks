@@ -1,4 +1,4 @@
-# VK - product analyst intern, spring 2026
+# VK - product analyst intern, summer 2026
 Тестовое задание на позицию стажера продуктового аналитика
 
 Первая часть - онлайн-тестирование на темы:
